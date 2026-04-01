@@ -37,7 +37,7 @@ def get_albums():
     response = requests.request("GET", url, headers=headers, data=payload)
     return jsonify({
         "data": response.json(),
-        "status": "success",
+        "status": "successFUL",
         "status_code": 200
     })
 
